@@ -3,7 +3,8 @@ import Book from './components/book'
 
 function App() {
   return (
-  <Book/>
+    <Book
+    title={{text:"Viatge a la lluna"}}/>
   );
 }
 
